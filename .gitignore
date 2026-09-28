@@ -1,0 +1,14 @@
+# data, intermediate artifacts and outputs are never committed
+student_resource/
+artifacts/
+output/
+deliverables/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+catboost_info/
+*.parquet
+*.tsv
+*.zip
+.DS_Store
